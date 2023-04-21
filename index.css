@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: blue;
+    color: white;
+    margin: 5vmin;
+    display: flex;
+    flex-direction: row;
+    gap: 5vmin;
+}
+
+.shiva-img{
+    width: 50vmin;
+}
+
+li a{
+    color: white;
+}
+
+.box{
+    width: fit-content;
+}
+.box .shiva-img{
+    width: 15vmin;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 2vmin;
+    width: 100%;
+
+}
+
+.imagenes img{
+    width: 5vmin;
+    flex-grow: 1;
+}
+
+.imagenes img:nth-child(1):hover{
+    width: 1vmin;
+    flex-grow: 1;
+}
