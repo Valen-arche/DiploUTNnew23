@@ -29,15 +29,29 @@ li a{
     flex-direction: row;
     gap: 2vmin;
     width: 100%;
-
+    flex-direction: column;
 }
 
 .imagenes img{
     width: 5vmin;
     flex-grow: 1;
+    
 }
 
 .imagenes img:nth-child(1):hover{
     width: 1vmin;
     flex-grow: 1;
+    
 }
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+  }
